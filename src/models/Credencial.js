@@ -6,6 +6,14 @@ const credencial = sequelize.define('credencial', {
         type: DataTypes.STRING,
         allowNull: false
     },
+    store: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    user: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
 });
 
 module.exports = credencial;
