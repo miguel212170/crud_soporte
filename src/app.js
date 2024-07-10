@@ -18,7 +18,7 @@ app.use(cors());
 app.use('/api/v1', router);
 
 app.get('/', (req, res) => {
-    return res.send("Welcome to express!");
+    return res.send("Servidor API Bitel Activo");
 })
 
 // middlewares después de las rutas
